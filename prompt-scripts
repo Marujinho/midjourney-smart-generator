@@ -1,0 +1,205 @@
+# Ultimate Prompt Structure - Atomic Prompting
+
+There are many different ways to approach the creation of an AI generated image and prompting. **Atomic Prompting** is one of the methodologies for organising a prompt that helps make the life of creators easier and their workflows much more efficient.
+
+We will organise components of our prompt according to three layers =  Organism, Molecules and Atoms which together creates a fully defined artwork. Of course, we don’t have to add every element in every level but one by one we can allow Midjourney to fully understand our creative direction. 
+
+Atomic prompting is inspired by nature of reality. With that, we will organise components of our prompt according to three layers =  Organism, Molecules and Atoms which together builds the the Image. 
+
+### **ORGANISM LEVEL**
+
+### **MOLECULAR LEVEL**
+
+### ATOMIC **LEVEL**
+
+### PARAMETERS
+
+## ATOMIC PROMPTING - Cinematic
+
+---
+
+**Cinematic, [PHOTOGRAPHY TYPE] [SUBJECT/ACTION]** 
+
+**[SHOT TYPE] [LOCATION] [FASHION] [YEAR] [FILM STOCK] [CAMERA] [DIRECTOR/PHOTOGRAPHER] [EMOTION] [LIGHTING] [COLOR]** 
+
+**[costume description] [fashion color palette] [fashion brand] [fashion material]** 
+
+`--ar 16:9` [your choice of aspect ratio] 
+
+`--s value` [if you want to use default Midjourney Aesthetics, value range= 0 - 1000] 
+
+`--style raw` [if you don’t want to use default Midjourney Aesthetics, for a deeper focus on your style keywords] 
+
+`--w value` [short for: --weird, brings unconventional results, value range= 0 - 3000] 
+
+`--w value --s value` [default Midjourney Aesthetics with an unconventional touch] 
+
+🟩 Organism Level      🟨 Molecular Level     🟥 Atomic Level     🔳 Parameters 
+
+The keyword, "Cinematic" is important as it prompts 'Midjourney', to interpret the image as a cinematic photo taken from an actual movie scene. If you want to create more Photography looking image rathen than an image looks like taking from a film scene then you can remove cinematic keyword and start with [PHOTOGRAPHY TYPE].
+
+In the molecular level we are using a combination of shot types, camera names with cinematic features, filmmakers with unique art style, and we are setting the tone with year, emotion and lighting. Together these will provide amazing value if you have something specific in mind.
+
+As you can see, atomic level is optional. We don’t have to go that deep unless we really want to control every detail in our image. 
+
+If you want to keep things simple, just use the organism level together with minimum amount of parameters for a simple but effective, cinematic looking image. 
+
+## Cinematic, [SCENE/SUBJECT/ACTION] `--ar 16:9` `--style raw`
+
+# ATOMIC PROMPTING DETAILS
+
+---
+
+# 🟩 **Organism Level** : Cinematic [PHOTOGRAPHY TYPE] [SUBJECT/ACTION]
+
+## 🟨 **Molecular Level :** [SHOT TYPE] [LOCATION] [FASHION] [YEAR] [FILM STOCK] [CAMERA] [DIRECTORS] [EMOTION] [LIGHTING]
+
+🟥 **Atomic Level** : [costume description] [fashion color palette] [fashion brand] [fashion material] 
+
+### 🔳 **Parameters :** --ar 16:9 --style raw
+
+# **ORGANISM LEVEL (**FIRST EVER DECISION) = [ART DIRECTION]
+
+---
+
+Organism Level is the the most foundational decisions we need to take for an AI image generation. Here we will decide on the art direction we will take and describe the scene in the simplest way possible: do we want more realism or more surrealism? Who is subject and what is the action in the scene? We have mainly three options here: 
+
+- CINEMATIC TYPE
+- PHOTOGRAPHIC TYPES (e.g Portrait Photography, Product Photography, Fashion Photography)
+- ILLUSTRATIVE TYPES (e.g Oil Painting, Digital Art, Watercolor, Abstract)
+
+Photography type is critical to notify Midjourney for our desired creative direction and it’s first ever decision we need to take. For example: do we want to have a portrait or architecture photography? Do we want to have a fashion photoshoot or product photography? What if we want to create a magnificent landscape? This element is one of the most important parts of our prompt structure. 
+
+After that we are describing our photo and finding answers for: who is in the photo? What are they doing? You don’t have to answer all these questions, but I recommend to include these critical details to maximise your creative control on the final outcome. And we know from my early prompt studies that Midjourney gives at most high ranking to tokens mentioned early in the prompt. That’s why these elements are in the first layer. 
+
+## **Prompt** **Examples:**
+
+---
+
+### Cinematic, woman from Vietnam walking in the rice fields
+
+### Portrait Photography, woman from Vietnam walking in the rice fields
+
+### Oil Painting, woman from Vietnam walking in the rice fields
+
+[ART DIRECTION](https://www.notion.so/9b89ff2267ea4f6588600393adb4e6e3?pvs=21)
+
+# PROMPT EXAMPLE
+
+---
+
+I will start by defining my art with a simple prompt that only consists of foundational level decisions: 
+
+# Cinematic, documentary photography, Warhammer 40.000 new title `--ar 16:9 --style raw --v 6.0`
+
+![cyberjungle01_Cinematic_documentary_photography_Warhammer_40.00_3ed50f32-19b8-42a6-9d95-2f441970c59b-gigapixel-standard-scale-4_00x.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/18bb7bc1-34dd-4aba-a6fc-8bbf099e3256/bfe884ce-8d63-429a-b142-c4ae2f9f3958/cyberjungle01_Cinematic_documentary_photography_Warhammer_40.00_3ed50f32-19b8-42a6-9d95-2f441970c59b-gigapixel-standard-scale-4_00x.png)
+
+That looks good, but can we define the artwork more precisely? 
+
+Let’s add secondary level details like location, weather, camera and emotion: 
+
+# Cinematic, documentary photography, close up shot, Warhammer 40.000 new title,
+
+## **ARRIFLEX 35 BL Camera, Canon K35 Prime Lenses,** snowy, 70mm, dedication  **`--ar 16:9 --style raw --v 6.0`**
+
+![cyberjungle01_Cinematic_photo_Warhammer_40.000_new_title_charac_bfd48680-a074-4b18-b72e-8ca3d36bb490-gigapixel-standard-scale-4_00x.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/18bb7bc1-34dd-4aba-a6fc-8bbf099e3256/801cf97a-d231-4267-a010-e866a8abe7fc/cyberjungle01_Cinematic_photo_Warhammer_40.000_new_title_charac_bfd48680-a074-4b18-b72e-8ca3d36bb490-gigapixel-standard-scale-4_00x.png)
+
+With this my image looks different now, still we can do more. Let’s take our character and create a version where ice meets fire, by adding sunset to our prompt. 
+
+# Cinematic, documentary photography, establishing shot, Warhammer 40.000 new title, in the style of snow scenes, **ARRIFLEX 35 BL Camera, Canon K35 Prime Lenses,** ethereal landscape, 70mm, dedication, Sunset, warm and vibrant colors, dedication  **`--ar 16:9 --style raw --v 6.0`**
+
+![cyberjungle01_Cinematic_photo_Warhammer_40.000_new_title_charac_a972613a-e242-4f54-b81a-0fd9649d1dd6-gigapixel-standard-scale-4_00x.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/18bb7bc1-34dd-4aba-a6fc-8bbf099e3256/e7771af1-b5d6-4f43-8b37-14198b4f331e/cyberjungle01_Cinematic_photo_Warhammer_40.000_new_title_charac_a972613a-e242-4f54-b81a-0fd9649d1dd6-gigapixel-standard-scale-4_00x.png)
+
+What if we go deeper and make some atomic decisions? For example: specify details of our character’s armor in a different way? 
+
+# futuristic armor
+
+![cyberjungle01_Cinematic_photo_Warhammer_40.000_new_title_charac_71de12c1-4b69-4d7c-97c6-4583ada86f58-gigapixel-standard-scale-4_00x.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/18bb7bc1-34dd-4aba-a6fc-8bbf099e3256/a22c2d9f-8926-458e-aa8b-a84ce608c33c/cyberjungle01_Cinematic_photo_Warhammer_40.000_new_title_charac_71de12c1-4b69-4d7c-97c6-4583ada86f58-gigapixel-standard-scale-4_00x.png)
+
+# metalic knight armor from victorian age
+
+![cyberjungle01_Cinematic_photo_Warhammer_40.000_new_title_charac_9d6db306-6530-4fc0-99ac-1c024073b1bb-gigapixel-standard-scale-4_00x.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/18bb7bc1-34dd-4aba-a6fc-8bbf099e3256/65e6f294-06dd-4706-8b02-3ce0c8efe30b/cyberjungle01_Cinematic_photo_Warhammer_40.000_new_title_charac_9d6db306-6530-4fc0-99ac-1c024073b1bb-gigapixel-standard-scale-4_00x.png)
+
+And consider combining your prompts with cinematic keywords like for great results. 
+
+### 🧪 Combine your prompt with keywords:
+
+# *film grain, cinematic light, intricate details*
+
+# **MOLECULAR LEVEL**
+
+---
+
+## [SHOT TYPE] [LOCATION] [FASHION] [YEAR] [FILM STOCK] [CAMERA] [DIRECTOR/PHOTOGRAPHER] [EMOTION] [LIGHTING] [COLOR]
+
+When we breakdown organism, we are reaching to Molecule layer represented by yellow color code and they’re about secondary details of subject: What is their location and what’s their outfit look like? In which year our subjects are living? Here we have also Camera Controls, Camera name and photographer style. It’s highly valuable to describe shot type in the prompt. Look how vibe and emotion changes when we apply different camera angles to the same subject. 
+
+# ATOMIC **LEVEL**
+
+---
+
+## [outfit color palette] [outfit brand] [outfit material]
+
+After this level, we are going to the atomic level where we have details of fashion and outfit, lighting source or color, description of background and even more. Atomic level prompting can be considered as advance prompting and it’s not necessary for everyone unless you really want to control every detail in your image. For majority of people organism and molecular level would be sufficient. 
+
+# PARAMETERS - Stylize vs Style Raw?
+
+---
+
+Last decision we need to take is, if we want to apply default Midjourney aesthetics to our photo and if yes how strongly? 
+
+"Stylize" is one of the most important parameters in the mid-journey and often the most misunderstood. Stylize gets a value 0 to 1000 range and it determines how much of default Mid journey aesthetics you want to apply to your images. Generally, you can expect for lower values mean images will stick closer to your prompt, while higher values let Midjourney to add more its default artistic flair to your composition. 
+
+`--s value` [if you want to use default Midjourney Aesthetics, value range= 0 - 1000] 
+
+`--style raw` [if you don’t want to use default Midjourney Aesthetics] 
+
+![fashion photography, the woman dressed in sci-fi outfit in the desert, long pink hair, burning man fashion, Sony Alpha a7 III camera, desertpunk --ar 16:9 --stylize 200 --v 6.0](https://prod-files-secure.s3.us-west-2.amazonaws.com/18bb7bc1-34dd-4aba-a6fc-8bbf099e3256/086b557b-e07c-4c2f-a06f-b853202f6910/0_0.jpeg)
+
+fashion photography, the woman dressed in sci-fi outfit in the desert, long pink hair, burning man fashion, Sony Alpha a7 III camera, desertpunk --ar 16:9 --stylize 200 --v 6.0
+
+![fashion photography, the woman dressed in sci-fi outfit in the desert, long pink hair, burning man fashion, Sony Alpha a7 III camera, desertpunk --ar 16:9 --style raw --v 6.0](https://prod-files-secure.s3.us-west-2.amazonaws.com/18bb7bc1-34dd-4aba-a6fc-8bbf099e3256/66f9df6d-d789-4fab-9cf9-515c50b8b61f/cyberjungle01_fashion_photography_the_woman_dressed_in_sci-fi_o_ab66a629-7613-4202-b3c6-6b94b51f5ee2.png)
+
+fashion photography, the woman dressed in sci-fi outfit in the desert, long pink hair, burning man fashion, Sony Alpha a7 III camera, desertpunk --ar 16:9 --style raw --v 6.0
+
+# PROMPT EXAMPLE
+
+---
+
+# cinematic, photo, **dark silhouette of an ethereal shadow of a wolf, appearing in the mist, chiaroscuro, dark pink palette, darkness, shadow silhouette `--style raw --ar 16:9 --stylize {0,250,750,1000} --v 6.0`**
+
+[Stylize Values Comparison](https://www.notion.so/1ca57ca7f2584f5fbf81809a75a294bd?pvs=21)
+
+As you can see, with the increasing Stylize value we are getting more arsty - dreamy compositions, we can get more surprise elements filling the image and it can certainly generate photorealistic images but it's not the main prio for Mid journey when Stylize value is high.
+
+Style Raw on the other hand, is simply stating that you don’t want to apply any of default Mid journey aesthetics to your image. You want to rely fully on your keywords in your prompt for artistic direction.
+
+# PARAMETERS - Weird
+
+---
+
+You can also use new weird parameter, together with stylize to create really unique looking unconventional images. Just keep in mind, to use same value for both parameters for balanced results. 
+
+`--w value` [short for: --weird, brings unconventional results, value range= 0 - 3000] 
+
+`--w value --s value` [default Midjourney Aesthetics with an unconventional touch] 
+
+![Bizarre and absurd, radiant neon patterns, top-down perspective, a discord, galago clouds mask, photobashing mask to face, butterfinger, a playground, flooded, realistic hyper-detailed rendering, psychedelic dreamscapes, expression conveys excitement, bella kotak, contemporary indian art, infrared photography, 200mm lense, nuclear waste, rococo pastels, 2030, --ar 16:9 --stylize 250 --weird 250 --v 6.0](https://prod-files-secure.s3.us-west-2.amazonaws.com/18bb7bc1-34dd-4aba-a6fc-8bbf099e3256/3845919f-8d81-45c7-92b0-38e796939c50/magnific-HJJCfJ4CvMCuNrBg2tKM-cyberjungle01_Bizarre_and_absurd_radiant_neon_patterns_top-down_15c9217a-c382-4a45-90fc-1bc41d7d3b21.jpeg)
+
+Bizarre and absurd, radiant neon patterns, top-down perspective, a discord, galago clouds mask, photobashing mask to face, butterfinger, a playground, flooded, realistic hyper-detailed rendering, psychedelic dreamscapes, expression conveys excitement, bella kotak, contemporary indian art, infrared photography, 200mm lense, nuclear waste, rococo pastels, 2030, --ar 16:9 --stylize 250 --weird 250 --v 6.0
+
+# PARAMETERS - Aspect Ratio
+
+---
+
+Then finalise your prompt with your desired aspect ratio. 
+
+`--ar x:y` [your choice of aspect ratio] 
+
+`--ar 1:1` [square] 
+
+`--ar 9:16` [vertical, portrait, story] 
+
+`--ar 16:9` [horizontal video] 
+
+`--ar 21:9` [cinematic]
